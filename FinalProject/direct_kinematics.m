@@ -1,0 +1,12 @@
+function x = direct_kinematics(theta, Extra)
+L1 = 4;
+L2 = 2;
+L3 = 1;
+c1 = cos(theta(1));
+c2 = cos(theta(1)+theta(2));
+c3 = cos(theta(1)+theta(2)+theta(3));
+s1 = sin(theta(1));
+s2 = sin(theta(1)+theta(2));
+s3 = sin(theta(1)+theta(2)+theta(3));
+x(1) = (L1*c1)+(L2*c2)+(L3*c3);
+x(2) = (L1*s1)+(L2*s2)+(L3*s3); 

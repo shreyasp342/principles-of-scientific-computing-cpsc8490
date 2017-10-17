@@ -1,0 +1,18 @@
+1. Installation Instructions
+1.1 Installation Instructions for Windows Users
+ADMAT is provided in a zip file ADMAT-2.0.zip. Place the zip file in a proper directory and unzip it. There are two methods for setting the MATLAB search paths for ADMAT.
+Method 1:
+1. Click “File” in MATLAB window.
+2. Choose the “Set Path” option.
+3. Click the “Add with Subfolders” button.
+4. Find the directory for ADMAT in the “Browse for Folders” window and click “OK”.
+5. Click the “Save" button to save the paths for ADMAT and click the “Close” button.
+6. Type “startup” at the MATLAB prompt or exit MATLAB and re-start MATLAB.
+Method 2:
+1. Access the ADMAT directory.
+2. Edit the startup.m file to add all subdirectories of ADMAT to the MATLAB search path manually.
+3. Type “startup” at MATLAB prompt to set up the paths for ADMAT.
+If there is a “success” message, ADMAT is correctly installed.
+
+1.2 Installation Instructions for Unix or Linux Users
+Unzip ADMAT-2.0.zip using “unzip ADMAT-2.0.zip” at the Unix or Linux prompt. Then follow Method 2 described above.
